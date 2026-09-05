@@ -1,0 +1,13 @@
+[project]
+name = "cgp_nas_cvrp"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+dependencies = [
+    "torch",
+    "numpy",
+    "tqdm",
+    "scipy",
+    "pandas",
+    "graphviz",
+]
