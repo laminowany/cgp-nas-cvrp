@@ -188,7 +188,7 @@ if __name__ == "__main__":
     opts = get_options()
     initial_setup(opts)
     logger = Logger(opts)
-    #verify_sanity(opts, logger)
+    verify_sanity(opts, logger)
     reset_seeds(opts)
     
     if opts.mode == "cgp_search":    
